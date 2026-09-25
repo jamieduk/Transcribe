@@ -1,0 +1,21 @@
+Transcribe Python App By (c)J~Net 2024
+jnetai.com
+
+
+
+# Set permission to run the setup and start scripts!
+chmod +x *.sh
+
+
+# Setup ready to get transcriptions!
+./setup.sh
+
+
+# Start transcription of a youtube video link
+./start.sh "URL"
+
+
+
+# Example
+./start.sh https://www.youtube.com/watch?v=_Sq5RqP27NY
+
