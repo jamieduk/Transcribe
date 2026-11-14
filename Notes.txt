@@ -1,7 +1,7 @@
 Transcribe Python App By (c)J~Net 2024
 jnetai.com
 
-
+Edit the path in start.sh to make sure path is accurate!
 
 # Set permission to run the setup and start scripts!
 chmod +x *.sh
@@ -18,4 +18,16 @@ chmod +x *.sh
 
 # Example
 ./start.sh https://www.youtube.com/watch?v=_Sq5RqP27NY
+
+
+
+# Add this function to your .bashrc or .bash_profile
+function transcribe() {
+    bash /home/jay/Documents/Scripts/PYTHON/YT-Transcribe-Python/start.sh $@
+    echo "Transcriptions Saved to /home/jay/Documents/Scripts/PYTHON/YT-Transcribe-Python/"
+}
+
+
+
+
 

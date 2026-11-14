@@ -4,6 +4,8 @@
 # ./start.sh
 #
 #
+cd /home/jay/Documents/Scripts/PYTHON/YT-Transcribe-Python/
+
 if [ -z "$1" ]; then
     read -r -p "Put URL To Transcribe: " user_in
 else
